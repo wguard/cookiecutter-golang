@@ -1,0 +1,8 @@
+{
+    "author": "wusheng",
+    "app_name": "mygolangproject",
+    "project_short_description": "A Golang project.",
+    "use_logrus_logging": "y",
+    "use_viper_config": "y",
+    "use_cobra_cmd": "y"
+}
