@@ -14,12 +14,12 @@
 # Dependency directories (remove the comment below to include it)
 vendor
 
+# dev
+vscode
+idea
+
 *.toml
 !controller_*.toml
 *.log
 build
 *_AUTO.go
-
-# dev
-vscode
-idea

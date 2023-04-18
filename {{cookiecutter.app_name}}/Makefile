@@ -2,7 +2,6 @@ version=0.1.0
 revision=1
 bin_name={{cookiecutter.app_name}}
 
-
 build=$(shell TZ=Asia/Shanghai date +%FT%T%z)
 commit=$(shell git rev-parse HEAD | cut -c1-6)
 ldflags="-X main.version=${version} -X main.build=${build} -X main.commit=${commit}"
@@ -18,4 +17,4 @@ prepare:
 
 clean:
 	rm -f build/*
-
+.PHONY: clean
